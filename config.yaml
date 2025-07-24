@@ -1,0 +1,15 @@
+# 🔑 API конфигурация
+together_api_key: "your-together-api-key"
+
+# 🤖 Модели
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+llm_model: "mistralai/Mixtral-8x7B-Instruct-v0.1"
+
+# 🔧 Параметры генерации
+temperature: 0.7
+max_tokens: 1024
+
+# ⚙️ Кластеризация
+num_clusters: 3
+min_words_per_article: 100
+max_articles: 100
