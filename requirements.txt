@@ -1,0 +1,22 @@
+# Парсинг и обработка новостей
+gnews
+newspaper3k
+selenium
+beautifulsoup4
+lxml
+requests
+
+# Кластеризация и векторизация
+scikit-learn
+sentence-transformers
+pandas
+numpy
+
+# LLM и генерация текста
+langchain
+together
+openai
+tqdm
+
+# Вспомогательные библиотеки
+pyyaml
