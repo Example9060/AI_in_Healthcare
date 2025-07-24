@@ -20,20 +20,14 @@ ai-healthcare-pipeline/
 ├── requirements.txt
 ├── config.yaml
 ├── data/
-│   ├── raw_articles.csv
+│   ├── full_articles.csv
 │   └── clustered_articles.csv
 ├── notebooks/
-│   ├── 01_collect_articles.ipynb
-│   ├── 02_clustering_and_summaries.ipynb
-│   └── 03_generate_meta_article.ipynb
-├── src/
-│   ├── collect.py
-│   ├── cluster.py
-│   ├── summarize.py
-│   └── generate_meta.py
+│   ├── collect.ipynb
+│   └── afm_tz2.ipynb
 └── output/
     ├── cluster_summaries.txt
-    └── final_meta_article.txt
+    └── meta_article.txt
 ```
 
 ---
